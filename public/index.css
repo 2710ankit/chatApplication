@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lobster+Two&display=swap');
+
+body{
+    background-image: url('backgroundImg.jpg') ;
+}
+#container {
+    left: 32%;
+    position: absolute;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .chat-input {
+    padding:10px;
+    width:250px;
+    max-height: 40px;
+    font-size:14px;
+    margin: 0px 5px 10px 5px;
+    display:block;
+    border-radius:10px;
+    border:1px solid #556677;}
+
+  .chat-submit {
+   height: 35px;
+   width: 50px;
+   border: 1px solid rgb(18, 43, 29);
+   border-radius: 10px;
+    background-color: rgb(3, 99, 59);
+   
+  }
+  .send-icon{
+    height: 30px;
+   width: 40px;
+  }
+  .chat-window {
+    min-height: 300px;
+    width: 400px;
+  }
+  #chatSection {
+    background-color: rgb(46, 97, 76);
+    float: left;
+    border: 1px rgb(49, 38, 38) solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: -5px 10px 50px 12px black;
+  }
+
+  h1{
+      font-size: 30px;
+      color: rgb(216, 200, 207);
+      font-family: 'Amatic SC', cursive;
+  }
+  .enterMessage{
+      font-size: large;
+      font-family: fantasy;
+      color: rgb(31, 18, 18);
+  }
+  .render-message{
+      margin-bottom: 5px;
+      font-size: large;
+      font-family: 'Lobster Two', cursive;
+      color: #f3f5de;
+  }

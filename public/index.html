@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat app</title>
+      <link rel=stylesheet href="index.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"></head>
+  <body>
+    <div id="container">
+      <h1>
+       Happy Chating!
+      </h1>
+      <div id="chatSection">
+        <div class="chat-window"></div>
+        <form class="chat-form">
+          <!-- <label class="chat-label">
+            <span class="enterMessage">Enter Message</span>
+            <textarea type="text" class="chat-input"></textarea>
+          </label>
+          <input type="submit" class="chat-submit" value="enter" /> -->
+          <table>
+            <tr>
+              <td>
+                <span class="enterMessage">Enter Message</span>
+              </td>
+              <td>
+                <textarea type="text" class="chat-input"></textarea>
+              </td>
+              <td>
+                <!-- <input type="submit" class="chat-submit" value='<span class="glyphicon glyphicon-send"></span>'' /> -->
+                <button type="submit" class="chat-submit"><img src="send.png" class="send-icon"></button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+
+    <script src="socket.io/socket.io.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
